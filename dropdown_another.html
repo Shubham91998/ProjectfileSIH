@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop-Down Menu</title>
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+            background-image: url(image/ph1.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+
+        }
+       
+        nav ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+           
+        }
+        nav ul li{
+            position: relative;
+            display: inline-block;
+        }
+        nav ul li a{
+            color: rgb(22, 7, 7);
+            display: block;
+            text-decoration: none;
+            padding: 14px 20px;
+        }
+        nav ul li a:hover{
+            background-color: #372ba5;
+        }
+        nav ul li ul {
+            display: none;
+            position: absolute;
+            background-color: #378ea8;
+            padding: 0;
+        }
+        nav ul li ul li {
+            display: block;
+        } 
+        nav ul li:hover ul{
+            display: block;
+        }
+        a:hover{
+            color: blue;
+        }
+        #Search{
+            position: absolute;
+            right: 20px;
+            top: 15px;
+            width: 80px;
+            height: 25px;
+            z-index: 2;
+            border-radius: 30px;
+
+        }
+        
+        section {
+            padding: 20px;
+            margin: 20px 0;
+            background-color:none;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .box-contaoiner{
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a>
+                <ul>
+                    <li><a href="#">Knowledge hub on culturehub and places</a></li>
+                    <li><a href="#">Culture Showcase</a></li>
+                    <li><a href="#">Hiddengems and Tracking recomandation</a></li>
+                    <li><a href="#">Local Vendor and marcket place</a></li>
+                    <li><a href="#">Blogs And Community</a></li>
+                </ul>
+            </li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Crowedfunding Contest</a></li>
+            <li><a href="#">Login Page</a></li>
+            <div class="box-container">
+                <input type="search" id="Search" placeholder="Search">
+            </div>
+        </ul>
+    </nav>
+        <!-- Virtual Cultural Tour -->
+    <section id="tour">
+        <h2>Virtual Cultural Tour</h2>
+        <p>Explore India's most iconic cultural sites through our immersive 360 degree virtual tours.</p>
+        <div class="item">
+            <iframe class="item" src="https://momento360.com/e/u/a646fbf574d9481b99bf8e10b47a15c0?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true" frameborder = "0" allowfullscreen></iframe>
+            <iframe class="item" src="https://momento360.com/e/u/099974cdc5a34774981d6cdcc47b8572?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true" frameborder = "0" allowfullscreen></iframe>
+            <iframe class="item" src="https://momento360.com/e/u/56bad31f29244aab9e71c08771071cb7?utm_campaign=mbed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true" frameborder = "0" allowfullscreen></iframe>
+        </div>
+        <a href="https://unsplash.com/s/photos/360"> View More</a>
+    </section>
+</body>
+</html>

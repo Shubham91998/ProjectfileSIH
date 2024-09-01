@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-image: url("all/Code-of-Cultural-Heritage-png.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+ul{
+    background-color: #288e8e;
+    color: white;
+    list-style-type: none;  
+    
+}
+ul li{
+    display: inline-block;
+    padding: 20px;
+}
+ul li:hover{
+    color: blue;
+}
+div{
+    display:block;
+    position: absolute;
+}
+.dropdown{
+    display: none;
+}
+ul li:hover .dropdown {
+    display: block;
+    position: absolute;
+    margin-left: -15px;
+    padding-top: 20px;
+}
+.dropdown ul {
+    margin: 0;
+    padding: 0;
+}
+.dropdown ul li {
+    display: block;
+}
+
+.menu{
+    display: none;
+}
+div .menu ul{
+    display: block;
+    position: absolute;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+}
+.menu ul li{
+    display: block;
+}
+ul li:hover .menu {
+    display: block;
+    position: absolute;
+    margin-left: -20px;
+    padding-top: 20px;
+}
+.service{
+    display: none;
+}
+div .service ul {
+    display: block;
+    position: absolute;
+}
+.service ul li {
+    display: block;
+}
+ul li:hover .service {
+    display: block;
+    position: absolute;
+    margin-left: -20px;
+    padding-top: 20px;
+}
+.service ul {
+    margin: 0;
+    padding: 0;
+}
+
+.loginpage{
+    display: none;
+}
+div .loginpage ul{
+    display: block;
+    position: absolute;
+}
+.loginpage ul {
+    display: block;
+    position: absolute;
+}
+ul li:hover .loginpage{
+    display: block;
+    position: absolute;
+    margin-left: -10px;
+    padding-top: 20px;
+}
+.loginpage ul {
+    margin: 0;
+    padding: 0;
+
+}
+ul a{
+    color: white;
+    text-decoration: none;
+
+}
+a:hover{
+    color: blue;
+}
+div ul li{
+    margin-block: -0.5cm;
+}
+.loginpage ul li{
+    margin-block: -0.3cm;
+}

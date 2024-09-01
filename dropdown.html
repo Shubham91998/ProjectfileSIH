@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop-Down Menu</title>
+    <style>
+        body{
+            background-color: antiquewhite;
+            background-image: url(project/js/ph1.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+
+
+        }
+        nav ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+           
+        }
+        nav ul li{
+            position: relative;
+            display: inline-block;
+        }
+        nav ul li a{
+            color: whi;
+            display: block;
+            text-decoration: none;
+            padding: 14px 20px;
+        }
+        nav ul li a:hover{
+            background-color: #372ba5;
+        }
+        nav ul li ul {
+            display: none;
+            position: absolute;
+            background-color: #378ea8;
+            padding: 0;
+        }
+        nav ul li ul li {
+            display: block;
+        } 
+        nav ul li:hover ul{
+            display: block;
+        }
+        a:hover{
+            color: blue;
+        }
+        #Search{
+            position: absolute;
+            right: 20px;
+            top: 15px;
+            width: 80px;
+            height: 25px;
+            z-index: 2;
+            border-radius: 30px;
+            
+
+        }
+        .box-container{
+            border: 1px solid #ccc;
+
+        }
+        .navbar a{
+            color: black;
+        }
+        .item {
+            text-align: right;
+            align-items: self-start;
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a>
+            <ul>
+                <li><a href="">Exploration</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Existing Schemes</a></li>
+            </ul>
+        </li>
+            <li><a href="#">Services</a>
+                <ul>
+                    <li><a href="#">Knowledge hub on culturehub and places</a></li>
+                    <li><a href="#">Culture Showcase</a></li>
+                    <li><a href="#">Hiddengems and Tracking recomandation</a></li>
+                    <li><a href="#">Local Vendor and marcket place</a></li>
+                    <li><a href="#">Blogs And Community</a></li>
+                </ul>
+            </li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Crowedfunding Contest</a></li>
+            <li><a href="#">Login Page</a></li>
+            <div class="box-container">
+                <input type="search" id="Search" placeholder="Search">
+            </div>
+        </ul>
+    </nav>
+    <section>
+        <h2>Lorem ipsum, dolor sit amet conse</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, nulla?</p>
+        <iframe src="" frameborder="0"></iframe>
+    </section>
+</body>
+</html>

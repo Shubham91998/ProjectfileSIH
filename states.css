@@ -1,0 +1,55 @@
+
+
+body {
+    background-image: url(all/Code-of-Cultural-Heritage-png.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+ 
+  
+}
+
+header {
+    color: #130202;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #130606;
+    font-size: 20px;
+    
+}
+
+section {
+    padding: 2rem;
+}
+
+#state-selector {
+    margin-bottom: 2rem;
+}
+
+#state-content {
+    margin-top: 1rem;
+}
+
+#state-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+

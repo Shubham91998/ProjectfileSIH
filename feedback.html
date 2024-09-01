@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Culture and Heritage</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Your Feedback Videos</h1>
+        <nav>
+            <ul>
+                <li><a href="dropdown.html">Home</a></li>
+                <li><a href="knoweledgehub.html">Festivals</a></li>
+                <li><a href="knoweledgehub.html">Art & Music</a></li>
+                <li><a href="knoweledgehub.html">Traditions</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to the World of Indian Culture!</h2>
+        <p>Explore the rich heritage of India through festivals, art, music, and traditions.</p>
+    </section>
+
+    <section id="festivals">
+        <h2>Festivals</h2>
+        <p>Discover the vibrant festivals celebrated across India.</p>
+        <!-- Add more content here -->
+    </section>
+
+    <section id="art-music">
+        <h2>Art & Music</h2>
+        <p>Experience traditional Indian art and music.</p>
+        <!-- Add more content here -->
+    </section>
+
+    <section id="traditions">
+        <h2>Traditions</h2>
+        <p>Learn about the various traditions and customs.</p>
+        <!-- Add more content here -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="/submit-feedback" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="Address">Address:</label>
+            <textarea type="text" id="Address" name="Address" rows="4" required></textarea>
+            
+            <label for="feedback">Feedback:</label>
+            <textarea id="feedback" name="feedback" rows="4" required></textarea>
+
+            <label for="image">Image:</label>
+            <input type="file" id="image" name="image" accept="image/*" required>
+            
+            <button type="submit">Upload</button>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+   
+</body>
+</html>

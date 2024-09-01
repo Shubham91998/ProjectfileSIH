@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India's Cultural Heritage</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body{
+            background-image: url(photo/p1\ \(1\).jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        #imageGallery img {
+            margin: 10px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            width: 200px;
+            height: auto;
+        }
+        .search{
+            float: right;
+            padding-top: 10px;
+           
+            color: white;
+
+        }   
+        .navbar input{
+            border: 2px solid white;
+            border-radius: 14px;
+            padding: 3px 17px;
+            width: 129px;
+        }
+    </style>
+
+
+
+</head>
+<body>
+    <header>
+        <h1>Welcome to India's Cultural Heritage</h1>
+        <h1>Knoweledge Hub</h1>
+        <!--<nav>
+            <a href="#" class="b">Virtual Tour</a>
+                <a href="#" class="b">Interactive Map</a>
+                <a href="#" class="b">Traditional Art Gallery</a>
+                <a href="#" class="b">Festivals Calendar</a>
+                <a href="#" class="b">Folk Music & Dance</a>
+                <a href="#" class="b">Language & Literature</a>
+                <a href="#" class="b">Traditional Clothing</a>
+                <a href="#" class="b">Historical Timelines</a>
+                <a href="#" class="b">Storytelling & Folklore</a>
+                <a href="#" class="b">Community Contributions</a>
+        </nav>-->
+    </header>
+        <nav class="navbar">
+            <a href="dropdown.html" target="_blank" class="a">Home</a>
+            <a href="states_cultur.html" class="_blank">States Culture</a>
+            <a href="feedback.html" class="_blank">Gallery</a>
+            <a href="feedback.html" class="_blank">Videos</a>
+            <a href="loginpage.html" class="_blank">Login/SingUp</a>
+            <div class="search">
+                <input type="text" name="search" id="search" placeholder="Search this website">
+            </div>
+        </nav>
+  
+
+    
+
+    <!-- Virtual Cultural Tour -->
+    <section id="tour">
+        <h2>Virtual Cultural Tour</h2>
+        <p>Explore India's most iconic cultural sites through our immersive 360 degree virtual tours.</p>
+        <div class="item">
+            <iframe class="item" src="https://momento360.com/e/u/a646fbf574d9481b99bf8e10b47a15c0?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true" frameborder = "0" allowfullscreen></iframe>
+            <iframe class="item" src="https://momento360.com/e/u/099974cdc5a34774981d6cdcc47b8572?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true" frameborder = "0" allowfullscreen></iframe>
+            <iframe class="item" src="https://momento360.com/e/u/56bad31f29244aab9e71c08771071cb7?utm_campaign=mbed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true" frameborder = "0" allowfullscreen></iframe>
+        </div>
+        <a href="https://unsplash.com/s/photos/360"> View More</a>
+
+    
+    
+    </section>
+    
+    <!-- Interactive Cultural Map -->
+    <section id="map">
+        <h2>Interactive Cultural Map</h2>
+        <p>Discover cultural landmarks and traditions from every region of India.</p>
+        <div class="map-container">
+            <!-- Placeholder for interactive map -->
+            <img src="map-image.jpg" alt="Interactive Map">
+        </div>
+        <button id="viewAllBtn">View All</button>
+        <script src="script.js"></script>
+    </section>
+
+    <!-- Traditional Art Gallery -->
+    <section id="art">
+        <h2>Traditional Art Gallery</h2>
+        <p>Dive into the world of Indian traditional arts and crafts.</p>
+        <div class="gallery">
+            <img src="traditional/art (8).jpg" alt="Madhubani Art">
+            <img src="traditional/ph1.png" alt="Tanjore Painting">
+            <img src="traditional/art (7).png" alt="Handloom Textiles">
+        </div>
+        <button id="viewImagesBtn">View All photo</button>
+
+        <div id="imageGallery" style="display:none;">
+        <!-- Images will be loaded here -->
+        </div>
+        <script src="script.js"></script>
+    </section>
+
+    <!-- Festivals and Rituals Calendar -->
+    <section id="festivals">
+        <h2>Festivals and Rituals Calendar</h2>
+        <p>Stay updated with the upcoming festivals and rituals celebrated across India.</p>
+        <div class="calendar">
+            <div class="festival">
+                <h3>Diwali</h3>
+                <p>Date: November 12, 2024</p>
+            </div>
+            <div class="festival">
+                <h3>Holi</h3>
+                <p>Date: March 25, 2024</p>
+            </div>
+            <div class="festival">
+                <h3>Pongal</h3>
+                <p>Date: January 15, 2024</p>
+            </div>
+        </div>
+        <a href="https://hindufestivaldates.com/">View More</a>
+    </section>
+
+    <!-- Folk Music & Dance -->
+    <section id="music">
+        <h2>Folk Music & Dance</h2>
+        <p>Experience the rhythm of India's folk music and dance traditions.</p>
+        <div class="music-dance">
+            <h2>BharatNatayam</h2>
+            <h2>Kathak</h2>
+            <h2>Bhangra</h2>
+        </div>
+        <div class="items2">
+            <iframe class="items2" src="https://www.youtube.com/embed/JWhA3ldZcyY?si=o68fiPVD8M-_bqds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
+            <iframe class="items2" src="https://www.youtube.com/embed/UBYqv21c0Yk?si=IqiI97d8F4pNwzNS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe class="items2" src="https://www.youtube.com/embed/1wnkSq8xnmg?si=G_Rq31e7ngrOkWF1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <a href="https://www.indiaculture.gov.in/">View More</a>
+    </section>
+
+    <!-- Language & Literature -->
+    <section id="literature">
+        <h2>Language & Literature</h2>
+        <button id="viewAllBtn">View All</button>
+        <script src="script.js"></script>
+        <p>Explore the rich linguistic diversity and literary heritage of India.</p>
+        <div class="literature">
+            <div class="language">
+                <h3>Sanskrit</h3>
+                <p>One of the oldest languages in the world, known for its classical texts.</p>
+            </div>
+            <div class="language">
+                <h3>Tamil</h3>
+                <p>A classical language with a rich literary tradition dating back centuries.</p>
+            </div>
+            <div class="language">
+                <h3>Hindi</h3>
+                <p>The official language of India, widely spoken and written across the country.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Traditional Clothing & Jewelry Showcase -->
+    <section id="clothing">
+        <h2>Traditional Clothing & Jewelry Showcase</h2>
+        <p>Discover the cultural significance behind India's traditional attire and jewelry.</p>
+        <div class="clothing">
+            <img src="photo/p1 (1).jpg" alt="Sari">
+            <img src="photo/p1 (2).jpg" alt="Kurta Pajama">
+            <img src="photo/p1 (4).jpg" alt="Lehenga">
+        </div>
+        <div>
+            <a href="https://www.jdinstitute.edu.in/traditional-indian-jewellery-history-and-significance/">History of Jewellery</a>
+            <a href="https://www.pure-elegance.com/blogs/arts-culture/the-rich-history-of-indian-fashion">Traditional Clothing</a>
+        </div>
+    </section>
+
+    <!-- Historical Timelines -->
+    <section id="history">
+        <h2>Historical Timelines</h2>
+        <p>Trace the history of India through its dynasties, empires, and movements.</p>
+        <div class="timelines">
+            <div class="timeline">
+                <a href="book/10571.pdf" target="_blank">
+                    <h3>Maurya Empire</h3>
+                    <p>321–185 BCE</p>
+                </a>
+            </div>
+            <div class="timeline">
+                <a href="book/8776c-gupta-and-harsha-period.pdf" target="_blank">
+                    <h3>Gupta Empire</h3>
+                    <p>c. 320–550 CE</p>
+                </a>
+            </div>
+            <div class="timeline">
+                <a href="book/10571.pdf" target="_blank">
+                    <h3>Mughal Empire</h3>
+                    <p>1526–1857 CE</p>
+                </a>
+            </div>
+        </div>
+        <h1>The History of Maharana-Pratap.</h1>
+    <p>
+        <a href="Maharana-Pratap - History.pdf" target="_blank">
+            Click here to read the book
+        </a>
+    </p>
+        <a href="https://study.com/learn/lesson/historical-events-timeline-purpose-construction-limitations.html#:~:text=A%20historical%20timeline%20is%20a,a%20whole%20because%20of%20commonalities.">View More</a>
+    </section>
+
+    <!-- Storytelling & Folklore -->
+    <section id="stories">
+        <h2>Storytelling & Folklore</h2>
+        <p>Experience the magic of India's ancient stories, legends, and folklore.</p>
+        <div class="folklore">
+            <div class="story">
+                <a href="https://www.britannica.com/topic/Ramayana-Indian-epic">
+                <h3>The Ramayana</h3>
+                <p>An ancient Indian epic narrating the journey of Rama to rescue his wife Sita.</p>
+                </a>
+            </div>
+            <div class="story">
+                <a href="https://www.britannica.com/topic/Mahabharata">
+                <h3>The Mahabharata</h3>
+                <p>The great Indian epic that explores the complexities of dharma and life.</p>
+                </a>
+            </div>
+            <div class="story">
+                <a href="https://www.talesofpanchatantra.com/">
+                <h3>Panchatantra Tales</h3>
+                <p>A collection of ancient Indian fables, often featuring animals as characters.</p>
+                </a>
+            </div>
+        </div>
+        <a href="https://www.worldoftales.com/#gsc.tab=0">View More</a>
+    </section>
+
+    <!-- Community Contributions -->
+    <section id="community">
+        <h2>Community Contributions</h2>
+        <p>Share your stories, photos, and videos related to India's cultural heritage.</p>
+        <div class="community-content">
+            <!-- Placeholder for user-generated content -->
+            <p>Coming Soon: A space for your contributions!</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 India's Cultural Heritage. All rights reserved.</p>
+    </footer>
+</body>
+</html>
